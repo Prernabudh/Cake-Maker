@@ -1,0 +1,26 @@
+.add-layer-heading {
+  font-family: "Dancing Script", cursive;
+  color: white;
+}
+
+.add-layer-button {
+  background-color: #ffb4a2;
+  color: white;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 5px;
+  width: 150px;
+  height: 50px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.add-layer-button:hover {
+  background-color: #e5989b;
+  box-shadow: 0 2px 5px grey;
+}
+
+.add-layer-button:focus {
+  border: none;
+  outline: none;
+}

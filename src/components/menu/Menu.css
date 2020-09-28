@@ -1,0 +1,37 @@
+.menu-heading {
+  font-family: "Dancing Script", cursive;
+  color: white;
+  text-align: center;
+}
+
+.menu-base {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.base-price {
+  margin-left: 10px;
+}
+
+.menu-card .cream {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  row-gap: 10px;
+}
+
+.menu-card .cream .flavour {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.flavour-icon {
+  height: 20px;
+  width: 20px;
+  margin-left: 10px;
+}

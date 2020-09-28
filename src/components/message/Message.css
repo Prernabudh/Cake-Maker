@@ -1,0 +1,65 @@
+.message {
+  position: fixed;
+  top: 0;
+  z-index: 50;
+  left: 40%;
+  transform: translateX(-40%);
+  transition: all 0.3s ease-out;
+}
+
+.handles {
+  display: flex;
+  flex-direction: row;
+}
+
+.handles .handle {
+  width: 10px;
+  height: 100px;
+  background: linear-gradient(#a56336, #b76935);
+  margin-right: 300px;
+  box-shadow: 2px 0px 2px rgb(128, 128, 128);
+}
+
+.message-box {
+  width: 360px;
+  height: 150px;
+  background: linear-gradient(to right, #ffb4a2, #ffcdb2);
+  position: fixed;
+  left: -20px;
+  border-radius: 5px;
+  box-shadow: 0px 5px 10px rgba(128, 128, 128, 0.5);
+}
+
+.bolts {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.bolts .bolt {
+  height: 5px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: #a56336;
+  margin-right: 300px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.message-content {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.message-text {
+  margin-left: 20px;
+  color: white;
+  font-size: 1.2em;
+  font-family: "Dancing Script", cursive;
+}

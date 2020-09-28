@@ -1,0 +1,31 @@
+.dropdown {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.label {
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+select {
+  margin-left: 2%;
+  margin-top: 10px;
+  border: none;
+  color: white;
+  background-color: #ffb4a2;
+  border-radius: 5px;
+  width: 200px;
+  height: 50px;
+  font-size: 1.1em;
+  padding: 4px;
+}
+
+select.decorated option:hover {
+  background-color: #ffffff !important;
+}
+
+select:focus {
+  outline: none;
+}
